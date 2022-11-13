@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace FirstProj.Migrations
+namespace Szerveroldali_bead.Migrations
 {
     public partial class Initial : Migration
     {

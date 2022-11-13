@@ -1,4 +1,4 @@
-﻿using FirstProj.Data;
+﻿using Szerveroldali_bead.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,8 +1,8 @@
 ﻿using System;
-using FirstProj.Models;
+using Szerveroldali_bead.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace FirstProj.Data
+namespace Szerveroldali_bead.Data
 {
     public class GAMFDbContext:DbContext
     {

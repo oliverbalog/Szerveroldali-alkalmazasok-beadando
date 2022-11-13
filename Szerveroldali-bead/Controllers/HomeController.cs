@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using FirstProj.Models;
-using FirstProj.Data;
+using Szerveroldali_bead.Models;
+using Szerveroldali_bead.Data;
 
-namespace FirstProj.Controllers;
+namespace Szerveroldali_bead.Controllers;
 
 public class HomeController : Controller
 {
@@ -16,8 +16,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var students = _dbContext.Students != null ? _dbContext.Students.ToList() : new List<Student>();
-        return View(students);
+        return View();
     }
 
     public IActionResult Privacy()

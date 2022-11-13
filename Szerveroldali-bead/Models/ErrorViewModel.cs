@@ -1,4 +1,4 @@
-﻿namespace FirstProj.Models;
+﻿namespace Szerveroldali_bead.Models;
 
 public class ErrorViewModel
 {
