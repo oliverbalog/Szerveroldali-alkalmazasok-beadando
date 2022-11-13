@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{EC98AD71-73EE-4510-9AFA-C5F844C9E9F4}|FirstProj">
+  <MonoDevelop.Ide.ItemProperties.Szerveroldali-bead PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FirstProj/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="FirstProj/Controllers/HomeController.cs" Line="31" Column="64" />
+      <File FileName="FirstProj/Program.cs" Line="32" Column="56" />
+      <File FileName="FirstProj/Views/Shared/_Layout.cshtml" Line="26" Column="113" />
+      <File FileName="FirstProj/Models/Student.cs" Line="18" Column="48" />
+      <File FileName="FirstProj/Models/Enrollment.cs" Line="15" Column="32" />
+      <File FileName="FirstProj/Models/Course.cs" Line="11" Column="48" />
+      <File FileName="FirstProj/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="FirstProj/Data/GAMFDbContext.cs" Line="16" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FirstProj" expanded="True" selected="True">
+            <Node name="Szerveroldali-bead" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
