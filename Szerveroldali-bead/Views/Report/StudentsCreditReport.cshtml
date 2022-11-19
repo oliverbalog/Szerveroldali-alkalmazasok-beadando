@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Szerveroldalibead.ViewModels.StudentsCreditsViewModel>
+
+@{
+    ViewData["Title"] = "Students credit";
+}
+
+<h2>Hallgatók és kreditjeik száma</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Vezetéknév</th>
+            <th>Keresztnév</th>
+            <th>Kreditek száma</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Student.FirstName
+                    </td>
+                    <td>
+                        @item.Student.LastName
+                    </td>
+                    <td>
+                        @item.Credits
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Szerveroldali_bead.Data;
 using Szerveroldali_bead.Models;
+using Szerveroldalibead.ViewModels;
 
 namespace Szerveroldalibead.Controllers
 {
@@ -22,6 +23,7 @@ namespace Szerveroldalibead.Controllers
         // GET: Students
         public async Task<IActionResult> Index()
         {
+
               return _context.Students != null ? 
                           View(await _context.Students.ToListAsync()) :
                           Problem("Entity set 'GAMFDbContext.Students'  is null.");
@@ -162,5 +164,6 @@ namespace Szerveroldalibead.Controllers
         {
           return (_context.Students?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
     }
 }
