@@ -10,7 +10,6 @@
   "profiles": {
     "FirstProj": {
       "commandName": "Project",
-      "launchBrowser": true,
       "applicationUrl": "http://localhost:60836",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -25,7 +24,6 @@
     },
     "Szerveroldali-bead": {
       "commandName": "Project",
-      "launchBrowser": true,
       "applicationUrl": "http://localhost:54675",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

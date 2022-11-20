@@ -1,8 +1,21 @@
 ﻿<Properties StartupConfiguration="{EC98AD71-73EE-4510-9AFA-C5F844C9E9F4}|FirstProj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Szerveroldali-bead/Views/Students/Create.cshtml">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/balogoliver/Documents/Egyetem/Szerveroldali alkalmazások/Szerveroldali-bead/Szerveroldali-bead/Szerveroldali-bead/Controllers/StudentsController.cs" relfile="Szerveroldali-bead/Controllers/StudentsController.cs" line="27" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Szerveroldali-bead PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Szerveroldali-bead/Controllers/ReportController.cs">
     <Files>
-      <File FileName="Szerveroldali-bead/Views/Shared/_Layout.cshtml" Line="51" Column="79" />
-      <File FileName="Szerveroldali-bead/Views/Students/Create.cshtml" Line="50" Column="23" />
+      <File FileName="Szerveroldali-bead/Views/Shared/_Layout.cshtml" Line="40" Column="19" />
+      <File FileName="Szerveroldali-bead/Controllers/ReportController.cs" Line="51" Column="1" />
+      <File FileName="Szerveroldali-bead/Controllers/StudentsController.cs" Line="167" Column="1" />
+      <File FileName="Szerveroldali-bead/Models/Student.cs" Line="21" Column="49" />
+      <File FileName="Szerveroldali-bead/Views/Students/StudentsCredit.cshtml" Line="1" Column="45" />
+      <File FileName="Szerveroldali-bead/Views/Students/Edit.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,9 +23,12 @@
           <Node name="Szerveroldali-bead" expanded="True">
             <Node name="Szerveroldali-bead" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Courses" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Report" expanded="True" />
                 <Node name="Shared" expanded="True" />
                 <Node name="Students" expanded="True" />
               </Node>
@@ -25,11 +41,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Szerveroldali-bead PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
